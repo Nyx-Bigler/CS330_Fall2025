@@ -1,3 +1,14 @@
+(NEEDS TO BE CORRECTED)
+
+In the meanwhile while I transition over to C++, here are the download instructions I used.
+I am using VSCode on a windows machine, so first I had to get a working C compiler onto my computer. (I used mingw)
+If you are on a unix or Linux machine you will likely have a much easier time with this, 
+and of course need to follow different instructions as a result.
+
+Anyway, here is the tutorial I followed, I wish you luck!
+https://code.visualstudio.com/docs/cpp/config-mingw
+
+________________________________________________________________________________________________________________
 C# (c sharp) is a C based, object oriented programming language that's part of the microsoft .NET framework.
 It can do quite a lot, and it's most popular applications is for making well... applications.
 It's also used in gaming, web service features, cross platform interactions (Windows, IOS, Android, and Linux), 
