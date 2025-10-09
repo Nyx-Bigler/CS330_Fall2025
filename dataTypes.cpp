@@ -1,6 +1,4 @@
 #include <iostream>
-#include <vector>
-#include <string>
 #include <map>
 
 using namespace std;
@@ -154,4 +152,5 @@ int main(){
     // KEEP IN MIND: the datatype has to stay the same, I can't make the address point to a string after.
 
     return 0; // and at last...
+
 } // we have finished :)
