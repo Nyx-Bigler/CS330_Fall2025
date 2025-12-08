@@ -1,6 +1,12 @@
 # Data Types in C++
 
 ## The base types
+`in_line`
+
+code block
+```
+x = 5
+```
 
 
 ## Q&A
