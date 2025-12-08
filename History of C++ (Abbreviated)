@@ -11,21 +11,3 @@ https://code.visualstudio.com/docs/cpp/config-mingw
 for learning resources, I will be using W3Schools and likely a misc collection of youtube videos.
 https://www.w3schools.com/cpp/default.asp
 ________________________________________________________________________________________________________________
-C# (c sharp) is a C based, object oriented programming language that's part of the microsoft .NET framework.
-It can do quite a lot, and it's most popular applications is for making well... applications.
-It's also used in gaming, web service features, cross platform interactions (Windows, IOS, Android, and Linux), 
-and anything else that relies on a highly interactive GUI. 
-C# also being part of the microsoft .NET framework means it also carries with it all of that functionality.
-
-But of course, it didn't start out that way.
-C# development began by Anders Hejlsberg and Mads Torgersen in 1999. 
-Origionally intented to be called COOL: C-like Object Oriented Language, but they went with C# instead upon release in 2000.
-It came out not long after java, (Java being a mid 90's language) which made it's early years a bit awkward.
-At first the two languages were quite similar, (both being C based) and people called C# a "java clone" but the two quickly developed in divergent ways.
-Especially after the C#2.0 update in 2005 C# very much stood on it's own, not just in the shadow of Java or C++.
-
-C# really came into the limelight with it's cross platform capabilities and projects.
-In 2004 the open source Mono project made C# not just viable for microsoft, but also for Linux and other OS.
-This (at least I think) is a big part of what set C# appart from it's neighbors, and why it's so effective for writing applications today!
-It's object oriented, familiar to anyone who's written in C based languages, cross platform compatible, and very efficient.
-Altogether, a very worthwhile language to learn.
