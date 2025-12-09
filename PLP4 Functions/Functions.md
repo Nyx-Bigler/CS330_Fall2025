@@ -1,3 +1,30 @@
+# Functions in C++
+
+First, let's start with how to write one. In order to write a function you need to know three things:
+- What data type are you going to be returning?
+- What you want your function to be called?
+- What data types are you going to be passing in?
+- and of course, what's your function going to do?
+
+The syntax goes as follows: `returnType FuncName(inputType inputVar){ whatever your function actually does }`
+You can have whitespace between your curly brackets for readability, or you can keep it all in line if the function is very short. Generally convention is to keep it on one line if it's one line of code, but to leave space if there's multiple lines.
+
+Like so:
+```
+int add(int a, int b){return(a+b);}
+
+//this is a function with multiple lines
+int narratedAdd(int a, int b){
+cout << "We are oing to add" << a << " and " << b <<endl;
+cout << a+b <<endl;
+return(a+b)
+}
+
+// this function doesn't return anthing
+void cat(){cout >>"meow!">> endl;}
+
+```
+
 What is the syntax for declaring a function in your language?
 
 Are there any rules about where the function has to be placed in your code file so that it can run?
