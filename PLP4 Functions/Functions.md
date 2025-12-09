@@ -13,7 +13,7 @@ Like so:
 ```
 int add(int a, int b){return(a+b);}
 
-//this is a function with multiple lines
+// this is a function with multiple lines
 int narratedAdd(int a, int b){
 cout << "We are oing to add" << a << " and " << b <<endl;
 cout << a+b <<endl;
@@ -25,27 +25,35 @@ void cat(){cout >>"meow!">> endl;}
 
 ```
 
-What is the syntax for declaring a function in your language?
+When you're writing a function in C++ the order that they're placed does matter. "They must be declared before they are called" (with the exception of main() as that is called implicitly.) so any functions that you want to use in main later, have to be written above it.
 
-Are there any rules about where the function has to be placed in your code file so that it can run?
 
 Does your language support recursive functions?
+- yes
 
 Can functions in your language accept multiple parameters?  Can they be of different data types?
+- yes
 
 Can functions in your language return multiple values at the same time?  
 How is that implemented?  If not, are there ways around that problem?  What are they?
+- no, tuples and lists
 
 Is your language pass-by reference or value?  Check your code against outside sources 
 in case there is anything tricky going on (like in Perl).
+- pass by value
 
 Where are the arguments, parameters and local variables stored (value-on-stack, ref-to-heap-on stack) during execution?
+- what are you even asking?
 
 What are the scoping rules in your language (visibility and lifetime of variables before, during and after code blocks)?
+- I think it's like java? global first, then local?
 
 Are side-effects possible? Are there guard rails against side-effects?
+- yes, no?
 
 Where are local variable values stored? (on the stack? On the heap?)
+- stack I think
 
 Are there any other aspects of functions in your language that aren't specifically asked about here, 
 but that are important to know in order to write one?  What are they? (e.g. dynamic vs static scope)
+- don't think so
