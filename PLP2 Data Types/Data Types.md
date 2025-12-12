@@ -2,9 +2,9 @@
 
 ## The base types
 
-First let's start with the basics, here are the first primitive types you're already used to. They are explicitly typed, (you declare the type when you declare the variable) and they are statically typed. ("once a string always a string" etc.) 
+First let's start with the basics, here are the first primitive types you're already used to. They are explicitly typed, (you declare the type when you declare the variable) and they are statically typed. ("once a string always a string" etc.) Conventionally, variable names have a lowercase first letter, no whitespace, and don't begin with a number.
 
-syntax: varType varName = value
+syntax: varType varName = value 
 ```
 int num = 12;
 float flNum = 6.5;
@@ -137,26 +137,18 @@ KEEP IN MIND: the datatype has to stay the same, I couldn't make the address poi
 ## Q&A
 
 Does your language have keywords or reserved words? How many?
-- I have to count???
-
-What are the naming requirements for variables in your language?
-- Lowercase first letter, no whitespace, please don't start with a number
+- C++ has reserve words
 
 What about naming conventions? Are those enforced by the compiler/interpreter, or just standards in the community?
 - just standards I think, accept for writing a number or something like that.
 
-Is your language statically or dynamically typed? Strongly typed or weakly typed?
-- Static Strong
-
 Are some variables mutable while others are immutable?
-
-What are the operators available for each data type?
-
-Are mixed type operations allowed? If so, how are they accommodated?
+- Usually variables are mutable outside of certain contexts (like a Const object). However, there is a keyword `mutable` which will get around this.
 
 At what point are identifier names and operator symbols bound in your language? 
 For example if you declare a (variable, class name, function name), when is it bound to the type, address? 
-When are operators (+,*, etc.) bound to their operations?
+- The compile step
 
-Explicitly typed or implicitly typed?
-- explicitly typed
+When are operators (+,*, etc.) bound to their operations?
+- I think also the compile step.
+
