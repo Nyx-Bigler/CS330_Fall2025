@@ -69,5 +69,5 @@ Does your language use short-circuit evaluation?  Include an example of the shor
 - Yes it does! Short circuit logic is bult into both `&&` and `||` statements. 
 
 How does your programming language deal with the “dangling else” problem?
-- Any `else` will match to the closest `if` within it's scope. (it's part of why the brackets are important). So whichever `if`'s close bracket is closest ahead of the `else` statement will be the `if` it maps to.
+- Any `else` will match to the closest `if` within it's scope. (It's part of why the brackets are important.) So whichever `if`'s close bracket is closest ahead of the `else` statement will be the `if` it maps to.
 
