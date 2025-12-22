@@ -66,7 +66,7 @@ Does your language allow for statements other than “if”
 - Not inherantly, just if, else if, and else. Though I think there are other namespaces or header files that you can include to add one of those in.
 
 Does your language use short-circuit evaluation?  Include an example of the short-circuit logic working or not working (or both, if your language is like Java and supports both!)
-- Yes it does! Short circuit logic is bult into both && and || statements. 
+- Yes it does! Short circuit logic is bult into both `&&` and `||` statements. 
 
 How does your programming language deal with the “dangling else” problem?
 - Any `else` will match to the closest `if` within it's scope. (it's part of why the brackets are important). So whichever `if`'s close bracket is closest ahead of the `else` statement will be the `if` it maps to.
