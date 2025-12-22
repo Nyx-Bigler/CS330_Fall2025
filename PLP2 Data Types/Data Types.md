@@ -134,7 +134,7 @@ KEEP IN MIND: the datatype has to stay the same, I couldn't make the address poi
 
 **Thing to know:** If when modifying something at the other end of a pointer and it moves, or the pointer moves, or the type changes or anything like that, you will get something known as a **segmentation fault** these can be super annoying to debug, but it means that either a pointer is now pointing at nothing (nullptr), pointing to something out of scope, etc.
 
-## Q&A
+## Things to know
 
 Does your language have keywords or reserved words? How many?
 - C++ has reserve words
