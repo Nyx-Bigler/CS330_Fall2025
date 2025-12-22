@@ -1,5 +1,17 @@
-What are the boolean values in your language? (e.g., True and False, true and false, 1, and 0, etc.)
-- 1 and 0
+# Booleans and Conditional Statements
+
+Booleans values in C++ are 1 and 0 values (1 for true, 0 for false). You can reference them by calling `true` or `false` but their output will always be 1 or 0. You can build statements with one or many conditions involved, segmenting with parentheses as needed. For building multiple condition statements, C++ and Java have the same values for and `&&`, or `||`, not `!`, equal to `==`, and does not equal `!=`. 
+
+```
+bool x = true // value is 1
+bool y = (7>8) // value is 0
+
+bool z (7>8) || (6<7) // value is 1
+bool q (7>8) && (6<7) // value is 0
+```
+
+These of course are the foundation of if/else statements
+
 
 What types of conditional statements are available in your language?  (if/else, if/then/else, if/elseif/else).
 - if/else
