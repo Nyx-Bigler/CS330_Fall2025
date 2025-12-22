@@ -64,8 +64,9 @@ Inheritance in C++ is I think among the most flexible. It supports both standard
 **Some key notes:**
 - A child class can call the methods of it's parent as much as it wants to, though for constructors you will want to use the `super` keyword. This will explicitly call the constructor for the parent class, and you can add any attributes specific to the child class.
 - If there is a function in the parent class you wish to modify for the child class, you can `override` functions from the parent class. You can write a child method with the same name as the parrent method and add `override` ahead of it to use the child method definition instead of the parent's. (However, if you do not use the `override` keyword, you will get an error)
+- When writing a definition for a child class, you can add multiple parents like so: `class ChildClass: public ParentOne, public ParentTwo { }`
 
-  example:
+example:
   
 ```
 // Parent class
@@ -83,4 +84,3 @@ class ChildClass: public Parent {
     int var2;
 };
   ```
-
