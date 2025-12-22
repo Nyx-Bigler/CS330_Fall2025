@@ -61,26 +61,40 @@ int main() {
 
 Inheritance in C++ is I think among the most flexible. It supports both standard single inheritance, multiple inheritance, and multi level inheritance. Anything that isn't specified with the keyword `private` can be acessed and/or utilized by an inherited class.
 
-**Some key notes:**
-- A child class can call the methods of it's parent as much as it wants to, though for constructors you will want to use the `super` keyword. This will explicitly call the constructor for the parent class, and you can add any attributes specific to the child class.
-- If there is a function in the parent class you wish to modify for the child class, you can `override` functions from the parent class. You can write a child method with the same name as the parrent method and add `override` ahead of it to use the child method definition instead of the parent's. (However, if you do not use the `override` keyword, you will get an error)
-- When writing a definition for a child class, you can add multiple parents like so: `class ChildClass: public ParentOne, public ParentTwo { }`
-
 example:
-  
 ```
 // Parent class
 class Parent {
   public:
-    string var1= "Ford";
+    string var1 = "Mom, can you help?";
     void parFunc() {
-      cout << "This is from the parent function" ;
+      cout << "This is from the parent function" <<endl;
     }
+
 };
 
 // Inheriting class
 class ChildClass: public Parent {
   public:
-    int var2;
+    int var2 = 12;
+    }
 };
   ```
+When calling a method from the parent class, you do not need to reference it any differently. As said before children can use and access any attributes or methods from their parent class. 
+
+example based on the classes above, all of this code would run without issue.
+```
+int main() {
+  ChildClass example;
+  example.parFunc();
+  cout << example.var1 << " " << example.var2 <<endl;
+  return 0;
+}
+```
+## Things to know
+
+- C++ does not have a `super` keyword like java. Child classes can call parent functions without the need for it. It does mean that you can't borrow constructors from the parent class, each class needs to have their own.
+  
+- You can override functions from the parent class, by writing a child method with the same name as the parent method. When called, the program will use the child method definition instead of the parent's.
+  
+- When writing a definition for a child class, you can add multiple parents like so: `class ChildClass: public ParentOne, public ParentTwo { }`
