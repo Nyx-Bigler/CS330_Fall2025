@@ -19,7 +19,7 @@ bool alsoMyBool = 6>7; // value == 0
 
 for booleans if you print them it will output a 1 for true and a 0 for false
 
-There are several cross type operations that are allowed. Adding `+`, subtracting `-`, multiplying `*`, and dividing `/`, ints ints, doubles and floats is perfectly fine:
+There are several cross type operations that are allowed. Adding `+`, subtracting `-`, multiplying `*`, and dividing `/` between ints, doubles and floats is perfectly fine:
 ```
     cout << num + dblNum <<" "; 
     cout << num - flNum <<" ";
