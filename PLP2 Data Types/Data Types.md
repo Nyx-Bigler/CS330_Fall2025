@@ -19,20 +19,20 @@ bool alsoMyBool = 6>7; // value == 0
 
 for booleans if you print them it will output a 1 for true and a 0 for false
 
-There are several cross type operations that are allowed, adding ints, doubles and floats is perfectly fine:
+There are several cross type operations that are allowed. Adding `+`, subtracting `-`, multiplying `*`, and dividing `/`, ints ints, doubles and floats is perfectly fine:
 ```
     cout << num + dblNum <<" "; 
-    cout << num + flNum <<" ";
-    cout << flNum + dblNum <<endl;
+    cout << num - flNum <<" ";
+    cout << flNum * dblNum <<endl;
 ```
-You can add char type variables and/or Booleans to any of the above:
+You can do the same for char type variables and/or Booleans to any of the above:
 ```
     cout << num + letter <<endl; // <- Will add the askey value of the char
 
     cout << num + myBool <<endl; // <- will add either 0 or 1 depending on the bool value
 ```
 
-Trying to add strings to ints, floats, doubles, or bools however, will crash.
+Trying to do any of that with strings to ints, floats, doubles, or bools however, will crash.
 ```
     //cout << num + word <<endl; <- This will crash
 ```
@@ -137,7 +137,7 @@ KEEP IN MIND: the datatype has to stay the same, I couldn't make the address poi
 ## Things to know
 
 Does your language have keywords or reserved words? How many?
-- C++ has reserve words
+- C++ has reserve words, in base C++ (without any includes) there are a total of 95.
 
 What about naming conventions? Are those enforced by the compiler/interpreter, or just standards in the community?
 - just standards I think, accept for writing a number or something like that.
